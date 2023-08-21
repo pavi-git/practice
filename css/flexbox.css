@@ -1,0 +1,36 @@
+/* best use of units px, %, em , rem, vh, vw */
+div {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #b7aaaa;
+  /* flex */
+  display: flex;
+  flex-flow: row wrap;
+}
+.cont {
+  border: 0.2rem solid #800000;
+  margin: 0.5rem;
+  background-color: #ebe6e1;
+  /* flex */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  width: 50rem;
+  height: 5rem;
+}
+section {
+  width: 30rem;
+  height: 25rem;
+}
+aside {
+  width: 8rem;
+  height: 25rem;
+}
+footer {
+  width: 50rem;
+  height: 5rem;
+}
